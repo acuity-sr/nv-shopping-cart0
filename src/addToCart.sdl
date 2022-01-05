@@ -1,0 +1,10 @@
+
+
+input AddToCart {
+  userId:  String
+  itemId:  String
+}
+
+extend type Mutation {
+  addToCart(data: AddToCart): Cart!
+}
