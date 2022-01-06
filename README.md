@@ -65,7 +65,7 @@ git add .
 
 # re-run the prisma generator
 # this generates a working graphQL API server, bound to the prisma client
-npm run generate
+npx prisma generate
 
 # run a prisma migration, so the database is properly configured
 npm run migrate 
