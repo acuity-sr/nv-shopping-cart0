@@ -22,34 +22,34 @@
   "author": "sramam",
   "license": "ISC",
   "devDependencies": {
-    "noun_and_verb_src": "file:../../../Users/sramam/dev/corral/noun-and-verb-src",
-    "prisma": "^3.7.0",
     "@types/faker": "^5.5.9",
+    "@types/micro": "^7.3.6",
+    "@types/micro-cors": "^0.1.2",
     "@types/validator": "^13.7.0",
     "concurrently": "^6.4.0",
     "cpy-cli": "^3.1.1",
     "cross-fetch": "^3.1.4",
     "faker": "^5.5.3",
-    "leasot": "^12.0.0",
+    "leasot": "file:../leasot",
+    "micro-dev": "^3.0.0",
     "noun_and_verb": "file:../../../Users/sramam/dev/corral",
+    "noun_and_verb_src": "file:../../../Users/sramam/dev/corral/noun-and-verb-src",
     "prettier": "^2.5.1",
+    "prisma": "^3.7.0",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.3",
-    "unsplash-js": "^7.0.15",
-    "@types/micro": "^7.3.6",
-    "@types/micro-cors": "^0.1.2",
-    "micro-dev": "^3.0.0"
+    "unsplash-js": "^7.0.15"
   },
   "dependencies": {
-    "@prisma/client": "^3.7.0",
     "@graphql-tools/schema": "^8.3.1",
     "@graphql-tools/utils": "^8.5.4",
     "@paljs/plugins": "^4.0.13",
+    "@prisma/client": "^3.7.0",
+    "apollo-server-micro": "^3.5.0",
     "graphql-middleware": "^6.1.13",
     "graphql-parse-resolve-info": "^4.12.0",
-    "validator": "^13.7.0",
-    "apollo-server-micro": "^3.5.0",
     "micro": "^9.3.4",
-    "micro-cors": "^0.1.1"
+    "micro-cors": "^0.1.1",
+    "validator": "^13.7.0"
   }
 }

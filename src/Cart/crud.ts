@@ -23,7 +23,7 @@ export async function findManyCart(
   info: any
 ) {
   const { prisma } = context;
-  return pris rgs);
+  return prisma.cart.findMany(args);
 }
 
 export async function aggregateCart(
